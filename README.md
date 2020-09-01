@@ -10,13 +10,13 @@ Implemented a Rainbow table using Haskell. The goal was to create a program that
 - pwReduce: a function that converts a hash value to possible password.
 
 ## Steps to load:
-  1) Open ghci  
-  2) Use ':c' at the location of your saved files  
-  3) Use ':l assignment1.hs' 
-  4) Creating a table:  
-  *Main> :t rainbowTable  
-    rainbowTable :: Int -> [Passwd] -> Map.Map Hash Passwd  
-  *Main> rainbowTable 2 ["dccdecee","cdeccaed","acbcaeec","eeeeaebd","ccdccbeb"]  
+    1) Open ghci  
+    2) Use ':c' at the location of your saved files  
+    3) Use ':l assignment1.hs' 
+    4) Creating a table:  
+    *Main> :t rainbowTable  
+      rainbowTable :: Int -> [Passwd] -> Map.Map Hash Passwd  
+    *Main> rainbowTable 2 ["dccdecee","cdeccaed","acbcaeec","eeeeaebd","ccdccbeb"]  
   
 ## Demo:
 
